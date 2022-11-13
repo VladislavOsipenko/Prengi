@@ -1,0 +1,60 @@
+.solution
+    position: relative
+    padding: 79px 0 61px 0
+    background: url('../img/bg/bg2.png') center (center / cover) no-repeat
+    max-height: 889px
+    &_title
+        color: #ffffff
+        font-size: 30px
+        font-weight: 900
+        line-height: 35.99px
+        text-align: center
+    &_menu
+        margin: 0 auto
+        margin-top: 25px
+        width: 843px
+        height: 65px
+        border: 1px solid #ffffff
+        border-radius: 5px
+        display: flex
+        justify-content: space-around
+        &__item
+            margin-top: 6px
+            text-align: center
+            height: 50px
+            border-right: 1px solid grey
+            padding: 0 27px
+            list-style-type: none           
+            &:last-child
+                border-right: none
+        &__link
+            display: block
+            margin-top: 12px
+            color: #fff
+            font-size: 14px
+            font-weight: 400
+            line-height: 25.99px
+            text-align: center
+            &:hover
+                color: $main_color
+                text-decoration: none
+    &_carousel 
+        margin-top: 35px
+        &__img
+            padding: 0 50px
+    .slick-arrow
+        position: absolute
+        top: 43%
+        z-index: 10
+        font-size: 0
+        width: 18px
+        height: 60px
+        border: none
+    .slick-prev
+        left: 50px
+        background: url('../icons/arrovs_l.png') center (center / cover) no-repeat
+    .slick-next
+        right: 50px
+        background: url('../icons/arrovs_r.png') center (center / cover) no-repeat
+
+
